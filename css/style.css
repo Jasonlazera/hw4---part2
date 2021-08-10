@@ -1,0 +1,149 @@
+/*
+Author: Jason Lazera
+Email address: jason_lazera@student.uml.edu
+GUI Programming I
+*/
+
+/* style code for table */
+table, th, td {
+    border: 3px solid purple;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    border-spacing: 30px;
+    background-color: green;
+  }
+  
+  /* style code for header */
+  h1 {
+    font-family: monospace;
+    color: white;
+  }
+  
+  /* style code for buttons */
+  #button1{
+    background-color: rgb(56, 163, 56);
+  }
+  
+  #button2{
+    background-color: purple;
+  }
+  
+  /* style code for rows and columns */
+  th, td{
+    width: 50px;
+    font-size: 25px;
+  }
+  
+  /* style code for tabs */
+  #tabcolor{
+    background-color: purple;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  /* style code for error button */
+  .error{
+    color: purple;
+  }
+  
+  body {
+    background-color: rgba(90, 40, 75, 0.24);
+  }
+  
+  /* slider styling */
+  #mincol_slider{
+    width: 60%;
+    background: linear-gradient(90deg, rgb(88, 255, 88) 29%, rgb(56, 163, 56) 64%);
+    outline: none;
+  }
+  
+  #maxcol_slider{
+    width: 60%;
+    background: linear-gradient(90deg, rgb(88, 255, 88) 29%, rgb(56, 163, 56) 64%);
+    outline: none;
+  }
+  
+  #minrow_slider{
+    width: 60%;
+    background: linear-gradient(90deg, rgb(88, 255, 88) 29%, rgb(56, 163, 56) 64%);
+    outline: none;
+  }
+  
+  #maxrow_slider{
+    width: 60%;
+    background: linear-gradient(90deg, rgb(88, 255, 88) 29%, rgb(56, 163, 56) 64%);
+    outline: none;
+  }
+  
+  /* input field styling */
+  .min_colX{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    font-family: monospace;
+    background-color:rgb(88, 255, 88);
+    border-radius: 10px;
+    
+  }
+  
+  .max_colY{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    font-family: monospace;
+    background-color:rgb(88, 255, 88);
+    border-radius: 10px;
+  }
+  
+  .min_rowX{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    font-family: monospace;
+    background-color:rgb(88, 255, 88);
+    border-radius: 10px;
+  }
+  
+  .max_rowY{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    font-family: monospace;
+    background-color:rgb(88, 255, 88);
+    border-radius: 10px;
+  }
+  
+  /* more slider and button styling */
+  .slider1{
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-bottom: 20px;
+  }
+  
+  .slider2{
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-bottom: 20px;
+  }
+  
+  .slider3{
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-bottom: 20px;
+  }
+  
+  .slider4{
+    margin: auto;
+    padding-top: 20px;
+    padding-left:200px;
+  }
+  
+  .button{
+    margin: auto;
+    padding-top: 40px;
+    padding-left: 400px;
+  }
+  
